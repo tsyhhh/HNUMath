@@ -9,9 +9,4 @@ public class Controller {
     * 总之这次给了我一个教训，先看完视频，确定规范，确定框架，分离层次再开始写代码。
     * 这些本来应该在暑假的时候就已经完成的，只能说我的脑子有点不太好使吧，下次一定。
     * */
-    public static void main(String[] args) {
-        for (int i=0;i<32;i++){
-            System.out.println("dst[temp*dim+i+"+i+"] = src[(i+"+i+")*dim+j];");
-        }
-    }
 }
